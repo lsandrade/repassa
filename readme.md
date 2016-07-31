@@ -37,7 +37,12 @@ Display the time in words.
 thirteen minutes to six
 ```
 
-## Running
+## Running Ruby version
 ```
 ruby run.rb
+```
+
+## Running JS version
+```
+open index.html in your browser
 ```
