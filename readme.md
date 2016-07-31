@@ -36,3 +36,8 @@ Display the time in words.
 ```
 thirteen minutes to six
 ```
+
+## Running
+```
+ruby run.rb
+```
