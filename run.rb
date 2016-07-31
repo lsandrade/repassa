@@ -16,6 +16,7 @@ def get_minute minute
 	if minute == 1 then return "one minute" end
 	if minute <= 10 then return "#{$unit[minute]} minutes" end
 	if minute <20 then return "#{$past_ten[minute-10]} minutes" end
+	if minute%10 == 0 then return "#{$ten[minute/10]} minutes" end
 	return "#{$ten[minute/10]} #{$unit[minute%10]} minutes"
 end
 
